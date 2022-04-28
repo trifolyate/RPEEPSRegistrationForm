@@ -11,7 +11,7 @@
         android:id="@+id/LinearLayoutImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="30dp"
         android:orientation="vertical">
 
 
@@ -28,7 +28,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="2dp"
             android:text="Registration Form"
             android:textSize="30dp"
             android:textStyle="bold" />
@@ -39,7 +38,7 @@
         android:id="@+id/LinearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="1dp"
         android:orientation="vertical">
 
         <TextView
@@ -86,24 +85,20 @@
         android:gravity="center"
         android:orientation="horizontal" >
 
-        <RadioButton
-            android:id="@+id/radioButton5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Female" />
-
-        <RadioButton
-            android:id="@+id/radioButton4"
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male" />
 
-        <RadioButton
-            android:id="@+id/radioButton4"
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Others" />
-
     </LinearLayout>
 
 
@@ -132,7 +127,7 @@
             android:ems="14"
             android:gravity="center"
             android:hint="21002100 e.g."
-            android:inputType="textPersonName" />
+            android:inputType="number" />
     </LinearLayout>
 
     <LinearLayout
@@ -213,7 +208,7 @@
             android:ems="14"
             android:gravity="center"
             android:hint="91234567 e.g."
-            android:inputType="textPersonName" />
+            android:inputType="number" />
     </LinearLayout>
 
     <LinearLayout
