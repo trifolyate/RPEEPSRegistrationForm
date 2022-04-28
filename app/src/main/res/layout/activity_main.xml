@@ -59,7 +59,7 @@
             android:ems="14"
             android:hint="NRIC FULL NAME"
             android:gravity="center"
-            android:inputType="textPassword" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -132,7 +132,7 @@
             android:ems="14"
             android:gravity="center"
             android:hint="21002100 e.g."
-            android:inputType="numberPassword" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -159,7 +159,7 @@
             android:ems="14"
             android:gravity="center"
             android:hint="School(SOI,SHL,etc.)"
-            android:inputType="textPassword" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -186,7 +186,7 @@
             android:ems="14"
             android:gravity="center"
             android:hint="21002100@myrp.edu.sg (e.g.)"
-            android:inputType="textPassword" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -213,7 +213,7 @@
             android:ems="14"
             android:gravity="center"
             android:hint="91234567 e.g."
-            android:inputType="numberPassword" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <LinearLayout
@@ -233,9 +233,4 @@
             android:gravity="center"
             android:text="Register" />
     </LinearLayout>
-
-
-
-
-
 </LinearLayout>
